@@ -161,12 +161,11 @@ const App = () => {
               {/* Contact Details */}
               <div className="space-y-2 text-sm">
                 <p>
-                  <span className="font-semibold">Location:</span> College Road,
-                  Chhatak, Sunamgonj
+                  <span className="font-semibold">Location:</span> Hamza Market,
+                  Court Road, Chhatak, Sunamganj
                 </p>
                 <p>
-                  <span className="font-semibold">Phone:</span> ++880
-                  1591-139036
+                  <span className="font-semibold">Phone:</span> +880 1591-139036
                 </p>
                 <p>
                   <span className="font-semibold">Email:</span> bdctti@gmail.com
@@ -508,7 +507,12 @@ const App = () => {
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="text-center">
               <div className="bg-white/30 bg-opacity-20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg
+                  className="w-8 h-8"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -524,8 +528,8 @@ const App = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
-              <p>College Road, Chhatak</p>
-              <p>Sunamgonj, Bangladesh</p>
+              <p>Hamza Market, Court Road, Chhatak</p>
+              <p>Sunamganj, Bangladesh</p>
             </div>
 
             <div className="text-center">
@@ -614,7 +618,7 @@ const App = () => {
                 <div>
                   <h3 className="text-lg font-bold">CTTI</h3>
                   <p className="text-sm text-gray-400">
-                    Technical Training Institute
+                    Chhatak Technical Training Institute
                   </p>
                 </div>
               </div>
@@ -719,8 +723,8 @@ const App = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-sm text-gray-400">
-                <p>College Road, Chhatak</p>
-                <p>Sunamgonj, Bangladesh</p>
+                <p>Hamza Market, Court Road, Chhatak</p>
+                <p>Sunamganj, Bangladesh</p>
                 <p>Phone: +880 1591-139036</p>
                 <p>Email: bdctti@gmail.com</p>
               </div>
