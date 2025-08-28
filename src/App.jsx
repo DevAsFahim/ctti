@@ -217,8 +217,6 @@ const App = () => {
               <img
                 src="https://tinyurl.com/2zhzuk45"
                 alt="Students learning"
-                // width={600}
-                // height={500}
                 className="rounded-lg shadow-2xl"
               />
             </div>
@@ -246,10 +244,8 @@ const App = () => {
                 className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
               >
                 <img
-                  src={course.image || "/placeholder.svg"}
+                  src={course.image}
                   alt={course.title}
-                  // width={300}
-                  // height={200}
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
@@ -464,7 +460,7 @@ const App = () => {
             ].map((member, index) => (
               <div key={index} className="text-center">
                 <img
-                  src={member.image || "/placeholder.svg"}
+                  src={member.image}
                   alt={member.name}
                   // width={300}
                   // height={300}
